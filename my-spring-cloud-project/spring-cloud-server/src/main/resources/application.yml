@@ -25,3 +25,40 @@ eureka:
 
 mybatis:
   mapper-locations: classpath:mybatis/*.xml
+
+logging:
+  config: classpath:logback-spring.xml
+  level:
+    com.ibatis: DEBUG
+
+logback:
+  #非开发环境是否开启控制台日志
+  enableConsoleLogWhenNotInDev: false
+  #**日志文件存放目录，目录后面无需再加"/"。备注如果这项不配置，则不输出日志文件
+  logFileDir: /acc-Log
+  #日志路径
+  dir: /Users/zhangboqing/Downloads/logs
+
+
+#  #文件名称
+#  all:
+#    filename: springboot-base-frame-all
+#  info:
+#    filename: springboot-base-frame-info
+#  warn:
+#    filename: springboot-base-frame-warn
+#  error:
+#    filename: springboot-base-frame-error
+#  #文件的最大数量
+#  maxhistory: 10
+#  #文件的最大文件大小
+#  maxfilesize: 100MB
+#  #日志级别
+#  level: debug
+#  #日志字符编码
+#  charset: UTF-8
+#  #日志格式
+#  CONSOLE_LOG_PATTERN: %d{yyyy-MM-dd HH:mm:ss.SSS} %boldYellow([%thread]) %highlight(%-5level) %boldGreen(%logger{50}) - %msg%n
+#  FILE_LOG_PATTERN: %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
+#  #控制日志是否在控制台打印,默认打印
+#  ifOpenConsol: true
