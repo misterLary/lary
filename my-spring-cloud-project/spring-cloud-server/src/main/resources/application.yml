@@ -1,0 +1,27 @@
+#服务名称
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        ##注册中心的服务id
+        serviceId: spring-service
+  application:
+    name: spring-service1
+  datasource:
+    name: test
+    url: jdbc:postgresql://localhost/postgres
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+#端口号
+server:
+  port: 2222
+#注册中心
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
