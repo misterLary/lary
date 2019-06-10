@@ -5,14 +5,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@ApiVersion(1)
+@ApiVersion(2)
 @RequestMapping("{version}/test")
 //@RequestMapping("/test")
-public class TestController {
+public class TestControllerV2 {
 
     @RequestMapping(value = "/getMessage")
     public String getMessage(){
-        return "i got you v1";
+        return "i got you v2";
     }
 
 }

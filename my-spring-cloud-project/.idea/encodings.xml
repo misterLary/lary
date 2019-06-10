@@ -3,7 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-Eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-server/src/main/resources/application.yml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-server/src/main/resources/application.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/spring-cloud-zuul" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>
