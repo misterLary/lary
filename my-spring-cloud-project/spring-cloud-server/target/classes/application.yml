@@ -1,0 +1,33 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        serviceId: spring-service
+  application:
+    name: spring-service1
+  datasource:
+    name: test
+    url: jdbc:postgresql://localhost/postgres
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+server:
+  port: 2222
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:4444/eureka/
+
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml
+
+logging:
+  config: classpath:logback-spring.xml
+  level:
+    com.ibatis: DEBUG
+
+logback:
+  enableConsoleLogWhenNotInDev: false
+  logFileDir: /acc-Log
+  dir: /Users/zhangboqing/Downloads/logs

@@ -1,0 +1,14 @@
+{
+  "name": "test-node",
+  "version": "1.0.0",
+  "description": "搭建的第一个node项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lary",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}

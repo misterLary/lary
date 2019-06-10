@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccc95d56-7b1f-42c1-b720-e7e86fcd27d3" name="Default Changelist" comment="单元测试功能添加">
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-2/src/main/java/com/SpringCloudEureka2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-eureka-2/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/ApiVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/ApiVersionCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/CustomRequestMappingHandlerMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/controller/TestControllerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/interceptor/AuthInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/config/MyFallbackProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="ccc95d56-7b1f-42c1-b720-e7e86fcd27d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-Eureka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-Eureka/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-Eureka/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-Eureka/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-server/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-server/target/classes/com/SpringServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-server/target/classes/com/SpringServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-server/target/classes/com/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-server/target/classes/com/controller/TestController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,7 +68,7 @@
           <entry key="dummy" value="1" />
           <entry key="java" value="524" />
           <entry key="properties" value="79" />
-          <entry key="txt" value="15" />
+          <entry key="txt" value="41" />
           <entry key="xml" value="62" />
           <entry key="yml" value="226" />
         </counts>
@@ -96,7 +76,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="524" />
-          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="PLAIN_TEXT" value="42" />
           <entry key="Properties" value="79" />
           <entry key="XML" value="62" />
           <entry key="YAML" value="226" />
@@ -105,7 +85,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="51" />
+          <entry key="java" value="53" />
           <entry key="properties" value="13" />
           <entry key="xml" value="10" />
           <entry key="yml" value="4" />
@@ -114,7 +94,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="51" />
+          <entry key="JAVA" value="53" />
           <entry key="Properties" value="13" />
           <entry key="XML" value="10" />
           <entry key="YAML" value="4" />
@@ -125,91 +105,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-2/src/main/java/com/SpringCloudEureka2Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-2/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/SpringServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/config/MyFallbackProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="65" column="47" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/ApiVersion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="510">
               <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/WebConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/CustomRequestMappingHandlerMapping.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -220,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/ApiVersionCondition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+            <state relative-caret-position="300">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -328,7 +227,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="853" />
     <option name="y" value="30" />
     <option name="width" value="1571" />
@@ -563,7 +462,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560137779543" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560149882286" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../myproject" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -696,7 +595,7 @@
       <workItem from="1559009360850" duration="5534000" />
       <workItem from="1559210130333" duration="11970000" />
       <workItem from="1559524210138" duration="12607000" />
-      <workItem from="1560131402478" duration="911000" />
+      <workItem from="1560131402478" duration="1832000" />
     </task>
     <task id="LOCAL-00001" summary="单元测试功能添加">
       <created>1559268193411</created>
@@ -712,7 +611,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559310062359</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加了版本号控制&#10;添加了日志打印">
+      <created>1560148700881</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560148700881</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -748,7 +654,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31022000" />
+    <option name="totallyTimeSpent" value="31943000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -762,7 +668,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20095949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24360341" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -784,7 +690,7 @@
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.18221258" />
+      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.18221258" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -807,7 +713,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="单元测试功能添加" />
     <MESSAGE value="日志添加" />
-    <option name="LAST_COMMIT_MESSAGE" value="日志添加" />
+    <MESSAGE value="添加了版本号控制&#10;添加了日志打印" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了版本号控制&#10;添加了日志打印" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/SpringServiceApplication.java" />
@@ -919,6 +826,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -933,6 +845,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1030,16 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/ApiVersion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1064,10 +969,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/ApiVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/ApiVersionCondition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+        <state relative-caret-position="300">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
