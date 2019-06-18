@@ -1,5 +1,6 @@
 package com.controller;
 
+import com.cjb.util.ResponseBody;
 import com.config.ApiVersion;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,8 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     @RequestMapping(value = "/getMessage")
-    public String getMessage(){
-        return "i got you v1";
+    public Object getMessage(){
+        ResponseBody responseBody = new ResponseBody();
+        responseBody.setData("i got you v1");
+        responseBody.setCode("200");
+        return responseBody;
     }
 
 }

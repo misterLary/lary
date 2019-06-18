@@ -18,6 +18,7 @@
         <module>spring-cloud-server</module>
         <module>spring-cloud-zuul</module>
         <module>spring-cloud-eureka-2</module>
+        <module>common</module>
     </modules>
 
     <!--<dependencies>-->
