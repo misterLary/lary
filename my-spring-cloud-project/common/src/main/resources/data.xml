@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ArrayOfTDev xmlns="http://tempuri.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <TDev>
+        <ID>37</ID>
+        <Nick>三期临建</Nick>
+        <RTMPURL>rtmp://192.168.92.150:1935/hls/BG1</RTMPURL>
+        <HTTPURL>http://192.168.92.150:8080/hls/BG1.m3u8</HTTPURL>
+    </TDev>
+    <TDev>
+        <ID>38</ID>
+        <Nick>白沙湾-元玲路口1</Nick>
+        <RTMPURL>rtmp://192.168.92.150:1935/hls/BG2</RTMPURL>
+        <HTTPURL>http://192.168.92.150:8080/hls/BG2.m3u8</HTTPURL>
+    </TDev>
+
+</ArrayOfTDev>
