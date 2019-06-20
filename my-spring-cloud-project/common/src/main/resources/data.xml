@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <ArrayOfTDev xmlns="http://tempuri.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <TDev>
         <ID>37</ID>
@@ -12,5 +12,28 @@
         <RTMPURL>rtmp://192.168.92.150:1935/hls/BG2</RTMPURL>
         <HTTPURL>http://192.168.92.150:8080/hls/BG2.m3u8</HTTPURL>
     </TDev>
-
+    <TDev>
+        <ID>39</ID>
+        <Nick>IPCamera 041</Nick>
+        <RTMPURL>rtmp://192.168.92.150:1935/hls/BG3</RTMPURL>
+        <HTTPURL>http://192.168.92.150:8080/hls/BG3.m3u8</HTTPURL>
+    </TDev>
+    <TDev>
+        <ID>40</ID>
+        <Nick>洋稠路-老坝核路口1</Nick>
+        <RTMPURL>rtmp://192.168.92.150:1935/hls/BG4</RTMPURL>
+        <HTTPURL>http://192.168.92.150:8080/hls/BG4.m3u8</HTTPURL>
+    </TDev>
+    <TDev>
+        <ID>41</ID>
+        <Nick>新葵坝-白沙湾路口1</Nick>
+        <RTMPURL>rtmp://192.168.92.150:1935/hls/BG5</RTMPURL>
+        <HTTPURL>http://192.168.92.150:8080/hls/BG5.m3u8</HTTPURL>
+    </TDev>
+    <TDev>
+        <ID>42</ID>
+        <Nick>Channel 71</Nick>
+        <RTMPURL>rtmp://192.168.92.150:1935/hls/BG6</RTMPURL>
+        <HTTPURL>http://192.168.92.150:8080/hls/BG6.m3u8</HTTPURL>
+    </TDev>
 </ArrayOfTDev>

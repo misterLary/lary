@@ -14,7 +14,7 @@ import java.net.URL;
  */
 public class XMLUtil {
 
-    public static final java.net.URL URL = XMLUtil.class.getResource("/data.xml");
+    public static final URL URL = XMLUtil.class.getResource("/data.xml");
 
     public static void main(String[] args) {
         try{
@@ -22,13 +22,12 @@ public class XMLUtil {
             DocumentBuilder db = bdf.newDocumentBuilder();
             Document document = db.parse(new File(URL.toURI()));
             NodeList list = document.getElementsByTagName("TDev");
-            System.out.println("脚本之家测试结果：");
             for (int i = 0; i < list.getLength(); i++) {
                 Element element = (Element)list.item(i);
                 String id = element.getElementsByTagName("ID").item(0).getFirstChild().getNodeValue();
                 System.out.println(id);
                 String nick = element.getElementsByTagName("Nick").item(0).getFirstChild().getNodeValue();
-                System.out.println(nick);
+                System.out.println(new String(nick.getBytes("ISO-8859-1"),"utf-8"));
                 String rtpmUrl = element.getElementsByTagName("RTMPURL").item(0).getFirstChild().getNodeValue();
                 System.out.println(rtpmUrl);
                 String httpUrl = element.getElementsByTagName("HTTPURL").item(0).getFirstChild().getNodeValue();
