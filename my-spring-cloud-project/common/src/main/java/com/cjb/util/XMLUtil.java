@@ -27,7 +27,8 @@ public class XMLUtil {
                 String id = element.getElementsByTagName("ID").item(0).getFirstChild().getNodeValue();
                 System.out.println(id);
                 String nick = element.getElementsByTagName("Nick").item(0).getFirstChild().getNodeValue();
-                System.out.println(new String(nick.getBytes("ISO-8859-1"),"utf-8"));
+//                System.out.println(new String(nick.getBytes("ISO-8859-1"),"utf-8"));
+                System.out.println(nick);
                 String rtpmUrl = element.getElementsByTagName("RTMPURL").item(0).getFirstChild().getNodeValue();
                 System.out.println(rtpmUrl);
                 String httpUrl = element.getElementsByTagName("HTTPURL").item(0).getFirstChild().getNodeValue();

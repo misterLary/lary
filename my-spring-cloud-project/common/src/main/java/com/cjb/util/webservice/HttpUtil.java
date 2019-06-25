@@ -1,5 +1,11 @@
 package com.cjb.util.webservice;
 
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NodeList;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
@@ -19,14 +25,6 @@ public class HttpUtil {
             connection = (HttpURLConnection) url.openConnection();
             // 设置连接方式：get
             connection.setRequestMethod("GET");
-//            //2.传入参数部分
-//            connection.setDoOutput(true);
-//            // 得到请求的输出流对象
-//            out = new OutputStreamWriter(connection.getOutputStream(),"UTF-8");
-//            // 把数据写入请求的Body
-//            out.write("byProvinceName=陕西"); //参数形式跟在地址栏的一样
-//            out.flush();
-//            out.close();
             // 设置连接主机服务器的超时时间：15000毫秒
             connection.setConnectTimeout(15000);
             // 设置读取远程返回的数据时间：60000毫秒
@@ -36,17 +34,30 @@ public class HttpUtil {
             // 通过connection连接，获取输入流
             if (connection.getResponseCode() == 200) {
                 is = connection.getInputStream();
-                br = new BufferedReader(new InputStreamReader(is, "UTF-8"));
-                String temp = null;
-                while ((temp = br.readLine()) != null) {
-                    System.out.println(temp);
+                DocumentBuilderFactory bdf = DocumentBuilderFactory.newInstance();
+                DocumentBuilder db = bdf.newDocumentBuilder();
+                Document document = db.parse(is);
+                NodeList list = document.getElementsByTagName("TDev");
+                for (int i = 0; i < list.getLength(); i++) {
+                    Element element = (Element)list.item(i);
+                    String id = element.getElementsByTagName("ID").item(0).getFirstChild().getNodeValue();
+                    System.out.println(id);
+                    String nick = element.getElementsByTagName("Nick").item(0).getFirstChild().getNodeValue();
+                    System.out.println(nick);
+                    String rtpmUrl = element.getElementsByTagName("RTMPURL").item(0).getFirstChild().getNodeValue();
+                    System.out.println(rtpmUrl);
+                    String httpUrl = element.getElementsByTagName("HTTPURL").item(0).getFirstChild().getNodeValue();
+                    System.out.println(httpUrl);
+                    System.out.println();
                 }
             }
         }catch (MalformedURLException e) {
             e.printStackTrace();
         }catch (IOException e) {
             e.printStackTrace();
-        } finally {
+        }catch (Exception e){
+            e.printStackTrace();
+        } finally{
             if (null != is) {
                 try {
                     is.close();
@@ -61,13 +72,6 @@ public class HttpUtil {
                     e.printStackTrace();
                 }
             }
-//            if(null != out){
-//                try {
-//                    out.close();
-//                } catch (IOException e) {
-//                    e.printStackTrace();
-//                }
-//            }
             connection.disconnect();// 关闭远程连接
         }
     }
@@ -141,8 +145,8 @@ public class HttpUtil {
         }
     }
 
-    public static void main(String[] args) {
-        doPost("http://www.webxml.com.cn//WebServices/WeatherWebService.asmx/getSupportCity?byProvinceName=陕西",null);
-        doGet("http://www.webxml.com.cn//WebServices/WeatherWebService.asmx/getSupportCity?byProvinceName=陕西");
-    }
+//    public static void main(String[] args) {
+//        doPost("http://www.webxml.com.cn//WebServices/WeatherWebService.asmx/getSupportCity?byProvinceName=陕西",null);
+//        doGet("http://www.webxml.com.cn//WebServices/WeatherWebService.asmx/getSupportCity?byProvinceName=陕西");
+//    }
 }
