@@ -15,11 +15,12 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-cloud-Eureka</module>
-        <module>spring-cloud-server</module>
+        <module>spring-cloud-baseData</module>
         <module>spring-cloud-zuul</module>
         <module>spring-cloud-eureka-2</module>
         <module>common</module>
-        <module>spring-cloud-server-1</module>
+        <module>spring-cloud-redis</module>
+        <module>http-client</module>
     </modules>
 
     <!--<dependencies>-->
