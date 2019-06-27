@@ -12,7 +12,7 @@ spring:
 server:
   port: 5556
 
-#eureka:
-#  client:
-#    serviceUrl:
-#      defaultZone: http://localhost:1111/eureka/
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/

@@ -1,18 +1,21 @@
 package com.cjb.Model;
 
-public class UserModel {
+public class UserModel extends PageModel{
 
-    private String id;
-
+    private Integer userId;
 
     private String userName;
 
-    public String getId() {
-        return id;
+    private int userAge;
+
+    private String userAddress;
+
+    public Integer getUserId() {
+        return userId;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
     public String getUserName() {
@@ -23,14 +26,30 @@ public class UserModel {
         this.userName = userName;
     }
 
+    public int getUserAge() {
+        return userAge;
+    }
+
+    public void setUserAge(int userAge) {
+        this.userAge = userAge;
+    }
+
+    public String getUserAddress() {
+        return userAddress;
+    }
+
+    public void setUserAddress(String userAddress) {
+        this.userAddress = userAddress;
+    }
+
     @Override
     public int hashCode() {
-        return this.id.hashCode();
+        return this.userId.hashCode();
     }
 
     @Override
     public boolean equals(Object obj) {
         UserModel user = (UserModel)obj;
-        return this.id.equals(user.getId());
+        return this.userId.equals(user.getUserId());
     }
 }

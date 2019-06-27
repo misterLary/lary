@@ -1,6 +1,6 @@
 package com.service.impl;
 
-import com.entity.UserInfo;
+import com.cjb.Model.UserModel;
 import com.mappers.UserInfoMapper;
 import com.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,12 +15,12 @@ public class UserServiceImpl implements UserService {
     private UserInfoMapper userInfoMapper;
 
     @Override
-    public void saveUser(UserInfo userInfo) {
+    public void saveUser(UserModel userInfo) {
         userInfoMapper.saveData(userInfo);
     }
 
     @Override
-    public List<UserInfo> getUserList(UserInfo userInfo) {
+    public List<UserModel> getUserList(UserModel userInfo) {
         return userInfoMapper.queryByCondition(userInfo);
     }
 }

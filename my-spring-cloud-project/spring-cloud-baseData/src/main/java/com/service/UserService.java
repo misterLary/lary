@@ -1,13 +1,13 @@
 package com.service;
 
-import com.entity.UserInfo;
+import com.cjb.Model.UserModel;
 
 import java.util.List;
 
 public interface UserService {
 
-    void saveUser(UserInfo userInfo);
+    void saveUser(UserModel userInfo);
 
-    List<UserInfo> getUserList(UserInfo userInfo);
+    List<UserModel> getUserList(UserModel userInfo);
 
 }

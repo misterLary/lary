@@ -1,8 +1,7 @@
 package com.mappers;
 
-import com.entity.UserInfo;
+import com.cjb.Model.UserModel;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -10,16 +9,16 @@ import java.util.List;
 @Repository
 public interface UserInfoMapper {
 
-    List<UserInfo> queryByCondition(UserInfo userInfo);
+    List<UserModel> queryByCondition(UserModel userInfo);
 
-    int queryCountByCondition(UserInfo userInfo);
+    int queryCountByCondition(UserModel userInfo);
 
-    int saveData(UserInfo userInfo);
+    int saveData(UserModel userInfo);
 
     int deleteById(@Param("userId") int userId);
 
     int batchDeleteData(List<Integer> userIds);
 
-    int updateData(UserInfo userInfo);
+    int updateData(UserModel userInfo);
 
 }

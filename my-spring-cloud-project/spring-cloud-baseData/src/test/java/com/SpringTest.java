@@ -1,6 +1,6 @@
 package com;
 
-import com.entity.UserInfo;
+import com.cjb.Model.UserModel;
 import com.service.UserService;
 import org.apache.commons.collections.CollectionUtils;
 import org.junit.Test;
@@ -20,7 +20,7 @@ public class SpringTest {
 
     @Test
     public void saveUser(){
-        UserInfo userInfo = new UserInfo();
+        UserModel userInfo = new UserModel();
         userInfo.setUserId(1);
         userInfo.setUserName("1");
         userInfo.setUserAddress("2");
@@ -29,7 +29,7 @@ public class SpringTest {
 
     @Test
     public void getUserList(){
-       List<UserInfo> userInfoList = userService.getUserList(null);
+       List<UserModel> userInfoList = userService.getUserList(null);
        if(CollectionUtils.isNotEmpty(userInfoList)){
            userInfoList.forEach(val -> {
             System.out.println(val.getUserName());

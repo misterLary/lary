@@ -9,4 +9,8 @@ public interface HttpService {
 
     Object operateVideo(Integer pid, Integer pCmd, Integer pSpeed);
 
+    Object httpRestTemplateTest();
+
+    Object eurekaRestTemplateTest();
+
 }

@@ -1,7 +1,9 @@
 package com.service.impl;
 
 import com.service.HttpService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -18,6 +20,12 @@ import java.util.*;
 
 @Service(value = "redisHttpService")
 public class HttpServiceImpl implements HttpService {
+
+    @Autowired
+    private RestTemplate httpRestTemplate;
+
+    @Autowired
+    private RestTemplate eurekaRestTemplate;
 
     @Override
     public List<Map<String, Object>> getVideoData() {
@@ -52,12 +60,13 @@ public class HttpServiceImpl implements HttpService {
                     map.put("nick",element.getElementsByTagName("Nick").item(0).getFirstChild().getNodeValue());
                     map.put("rtpmUrl",element.getElementsByTagName("RTMPURL").item(0).getFirstChild().getNodeValue());
                     map.put("httpUrl",element.getElementsByTagName("HTTPURL").item(0).getFirstChild().getNodeValue());
+                    map.put("rtspUrl",element.getElementsByTagName("RTSPURL").item(0).getFirstChild().getNodeValue());
                     result.add(map);
                 }
                 return result;
             }
             Map<String, Object> map = new Hashtable<String, Object>();
-            map.put("error","接口异常");
+            map.put("error",connection.getResponseMessage());
             result.add(map);
             return result;
         }catch (MalformedURLException e) {
@@ -121,7 +130,7 @@ public class HttpServiceImpl implements HttpService {
                 result.put("success",connection.getResponseMessage());
                 return result;
             }
-            result.put("error","接口异常");
+            result.put("error",connection.getResponseMessage());
             return result;
         }catch (MalformedURLException e) {
             e.printStackTrace();
@@ -152,5 +161,15 @@ public class HttpServiceImpl implements HttpService {
             }
             connection.disconnect();// 关闭远程连接
         }
+    }
+
+    @Override
+    public Object httpRestTemplateTest() {
+        return this.httpRestTemplate.getForObject("http://www.webxml.com.cn/WebServices/WeatherWebService.asmx/getSupportCity?byProvinceName=", String.class);
+    }
+
+    @Override
+    public Object eurekaRestTemplateTest() {
+        return this.eurekaRestTemplate.getForObject("http://service-baseData/user/getUsers", Object.class);
     }
 }

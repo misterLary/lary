@@ -19,20 +19,16 @@ public class MainTest {
     public static void test1(){
         Set<UserModel> list1 = new HashSet<UserModel>();
         UserModel userModel = new UserModel();
-        userModel.setId("1");
         userModel.setUserName("a");
         list1.add(userModel);
         UserModel userMode2 = new UserModel();
-        userMode2.setId("2");
         userMode2.setUserName("b");
         list1.add(userMode2);
         Set<UserModel> list2 = new HashSet<UserModel>();
         UserModel userMode3 = new UserModel();
-        userMode3.setId("3");
         userMode3.setUserName("c");
         list2.add(userMode3);
         UserModel userMode4 = new UserModel();
-        userMode4.setId("1");
         userMode4.setUserName("d");
         list2.add(userMode4);
     }
@@ -40,20 +36,16 @@ public class MainTest {
     public static void test2(){
         Set<UserModel> list1 = new HashSet<UserModel>();
         UserModel userModel = new UserModel();
-        userModel.setId("1");
         userModel.setUserName("a");
         list1.add(userModel);
         UserModel userMode2 = new UserModel();
-        userMode2.setId("2");
         userMode2.setUserName("b");
         list1.add(userMode2);
         Set<UserModel> list2 = new HashSet<UserModel>();
         UserModel userMode3 = new UserModel();
-        userMode3.setId("3");
         userMode3.setUserName("c");
         list2.add(userMode3);
         UserModel userMode4 = new UserModel();
-        userMode4.setId("1");
         userMode4.setUserName("d");
         list2.add(userMode4);
 

@@ -39,4 +39,27 @@ public class VideoController {
         }
     }
 
+    @RequestMapping("/httpRestTemplateTest")
+    public Object httpRestTemplateTest(){
+        try{
+            return redisHttpService.httpRestTemplateTest();
+        }catch (Exception e){
+            e.printStackTrace();
+            Map<String, Object> map = new Hashtable<String, Object>();
+            map.put("error",e.getMessage());
+            return map;
+        }
+    }
+    @RequestMapping("/eurekaRestTemplateTest")
+    public Object eurekaRestTemplateTest(){
+        try{
+            return redisHttpService.eurekaRestTemplateTest();
+        }catch (Exception e){
+            e.printStackTrace();
+            Map<String, Object> map = new Hashtable<String, Object>();
+            map.put("error",e.getMessage());
+            return map;
+        }
+    }
+
 }
