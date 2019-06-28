@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Import;
 @SpringBootApplication
 @EnableDiscoveryClient//服务端
 @EnableFeignClients
-@MapperScan("com.mappers")
+@MapperScan("com.mapper")
 @Import(FeignUtils.class)
 public class BaseDataApplication {
 

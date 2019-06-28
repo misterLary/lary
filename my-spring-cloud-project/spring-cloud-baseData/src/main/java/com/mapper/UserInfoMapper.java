@@ -1,4 +1,4 @@
-package com.mappers;
+package com.mapper;
 
 import com.cjb.Model.UserModel;
 import org.apache.ibatis.annotations.Param;

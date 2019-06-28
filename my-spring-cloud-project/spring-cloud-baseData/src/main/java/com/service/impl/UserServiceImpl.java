@@ -1,7 +1,7 @@
 package com.service.impl;
 
 import com.cjb.Model.UserModel;
-import com.mappers.UserInfoMapper;
+import com.mapper.UserInfoMapper;
 import com.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
