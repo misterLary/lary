@@ -2,9 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccc95d56-7b1f-42c1-b720-e7e86fcd27d3" name="Default Changelist" comment="添加了版本号控制&#10;添加了日志打印">
+      <change afterPath="$PROJECT_DIR$/../my-node-web/src/models/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-node-web/src/routes/demo/Demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-node-web/src/services/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/java/com/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/java/com/util/FFmpegUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/bin/ffmpeg.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/bin/ffplay.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/bin/ffprobe.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/developer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/fate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/ffmpeg-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/ffmpeg-bitstream-filters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/ffmpeg-codecs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/ffmpeg-devices.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/ffmpeg-filters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/ffmpeg-formats.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/ffmpeg-protocols.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/ffmpeg-resampler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/ffmpeg-scaler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/ffmpeg-utils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/ffmpeg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/ffplay-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/ffplay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/ffprobe-all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/ffprobe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/general.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/git-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/libavcodec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/libavdevice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/libavfilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/libavformat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/libavutil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/libswresample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/libswscale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/mailing-list-faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/nut.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/platform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/doc/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/presets/ffprobe.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/presets/libvpx-1080p.ffpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/presets/libvpx-1080p50_60.ffpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/presets/libvpx-360p.ffpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/presets/libvpx-720p.ffpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http-client/src/main/resources/ffmpeg/presets/libvpx-720p50_60.ffpreset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-baseData/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud-baseData/target/classes/com/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-web/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-node-web/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my-node-web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-node-web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../my-node-web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-web/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-node-web/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-web/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-node-web/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-web/src/routes/IndexPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-node-web/src/routes/IndexPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-node-web/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/../my-node-web/src/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/http-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http-client/src/main/java/com/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/http-client/src/main/java/com/controller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/http-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-Eureka/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-Eureka/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-baseData/target/classes/com/entity/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-baseData/target/classes/com/mappers/UserInfoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-server/target/classes/com/config/ApiVersion.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-baseData/target/classes/com/config/ApiVersion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-server/target/classes/com/config/ApiVersionCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-baseData/target/classes/com/config/ApiVersionCondition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-server/target/classes/com/config/CustomRequestMappingHandlerMapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-baseData/target/classes/com/config/CustomRequestMappingHandlerMapping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-server/target/classes/com/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-baseData/target/classes/com/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-server/target/classes/com/controller/TestControllerV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-baseData/target/classes/com/controller/TestControllerV2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-server/target/classes/com/entity/PageEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-baseData/target/classes/com/entity/PageEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-server/target/classes/com/interceptor/AuthInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-baseData/target/classes/com/interceptor/AuthInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-server/target/classes/com/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-baseData/target/classes/com/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-server/target/classes/mybatis/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-baseData/target/classes/mybatis/UserInfoMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,11 +86,30 @@
     <ignored path="$PROJECT_DIR$/spring-cloud-server/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-zuul/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-eureka-2/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-server-1/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-baseData/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-redis/target/" />
+    <ignored path="$PROJECT_DIR$/http-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="668839468">
@@ -58,65 +151,128 @@
     <session id="65324324">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.33" value="3" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.50" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.76" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="1" />
-          <entry key="java" value="524" />
-          <entry key="properties" value="79" />
-          <entry key="txt" value="41" />
-          <entry key="xml" value="79" />
-          <entry key="yml" value="226" />
+          <entry key="dummy" value="46" />
+          <entry key="java" value="6399" />
+          <entry key="properties" value="92" />
+          <entry key="txt" value="208" />
+          <entry key="xml" value="214" />
+          <entry key="yml" value="294" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="524" />
-          <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Properties" value="79" />
-          <entry key="XML" value="79" />
-          <entry key="YAML" value="226" />
+          <entry key="JAVA" value="6399" />
+          <entry key="PLAIN_TEXT" value="254" />
+          <entry key="Properties" value="92" />
+          <entry key="XML" value="214" />
+          <entry key="YAML" value="294" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
-          <entry key="java" value="54" />
-          <entry key="properties" value="13" />
-          <entry key="xml" value="12" />
-          <entry key="yml" value="4" />
+          <entry key="class" value="26" />
+          <entry key="java" value="311" />
+          <entry key="pom" value="6" />
+          <entry key="properties" value="31" />
+          <entry key="xml" value="69" />
+          <entry key="yml" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="54" />
-          <entry key="Properties" value="13" />
-          <entry key="XML" value="12" />
-          <entry key="YAML" value="4" />
+          <entry key="CLASS" value="26" />
+          <entry key="JAVA" value="311" />
+          <entry key="Properties" value="31" />
+          <entry key="XML" value="75" />
+          <entry key="YAML" value="30" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-Eureka/src/main/java/com/SpringCloudEurekaApplication.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/http-client/src/main/java/com/controller/VideoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="2550">
+              <caret line="106" column="27" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/http-client/src/main/java/com/util/FFmpegUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="24" column="77" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/http-client/src/main/java/com/service/impl/HttpServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1048#1069#0" expanded="true" />
+                <element signature="e#2202#2218#0" expanded="true" />
+                <element signature="e#4537#4553#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/http-client/src/main/java/com/test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/http-client/src/main/java/com/service/HttpService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/http-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5070">
+              <caret line="169" selection-start-line="169" selection-end-line="169" />
             </state>
           </provider>
         </entry>
@@ -126,6 +282,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -136,7 +294,31 @@
       <find>Janino</find>
       <find>logback.properties</find>
       <find>CustomRequestMappingHandlerMapping</find>
+      <find>jackson-dataformat-xml</find>
+      <find>url</find>
+      <find>查询结果为空！这地区暂时不被支持</find>
+      <find>_operations</find>
+      <find>client.</find>
+      <find>TestHelloWrold</find>
+      <find>removeAll</find>
+      <find>contains</find>
+      <find>readTimeout</find>
+      <find>openConnection</find>
+      <find>jedis</find>
+      <find>AbstractApplicationContext</find>
+      <find>refresh</find>
+      <find>queryByCondition</find>
+      <find>spring-cloud-server</find>
+      <find>com.entity.UserInfo</find>
+      <find>创建目录</find>
+      <find>BaseEntity</find>
+      <find>FFmpegFrameGrabber</find>
+      <find>FileMd5Util</find>
     </findStrings>
+    <replaceStrings>
+      <replace>SoapRequestUtil</replace>
+      <replace>com.cjb.Model.UserModel</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -151,39 +333,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-cloud-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-cloud-zuul/src/main/java/SpringServiceApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/SpringServiceApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/SpringCloudZuulApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-Eureka/src/main/java/com/SpringCloudEurekaApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/SpringServiceApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/mappers/UserInfoMapper.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/service/UserService.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-server/src/test/java/com/SpringTest.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-Eureka/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-server/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-Eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-server/src/main/resources/logback.properties" />
-        <option value="$PROJECT_DIR$/spring-cloud-server/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/CustomRequestMappingHandlerMapping.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/ApiVersion.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/interceptor/AuthInterceptor.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/controller/TestControllerV2.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-eureka-2/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-eureka-2/src/main/java/SpringCloudEurekaApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-Eureka/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-cloud-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-eureka-2/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-cloud-eureka-2/src/main/java/com/SpringCloudEurekaApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-eureka-2/src/main/java/com/SpringCloudEureka2Application.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/config/MyFallbackProvider.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/ApiVersionCondition.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-server-1/src/test/java/com/JedisTest.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-server-1/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-server-1/src/main/java/com/config/JedisAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-server-1/src/main/java/com/SpringServiceApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-server-1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-server-1/src/main/java/com/service/impl/HttpServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-basedata/pom.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/cjb/service/HttpService.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/cjb/service/impl/HttpServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-baseData/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-server-1/src/main/java/com/service/BaseDataService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/controller/VideoController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/SpringServiceApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/service/impl/HttpServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/SpringServiceApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/service/BaseDataService.java" />
+        <option value="$PROJECT_DIR$/http-client/src/main/java/com/SpringServiceApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/util/FeginUtil.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/util/BaseDataService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/service/UserService.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/mappers/UserInfoMapper.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-baseData/src/main/resources/mybatis/UserInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/cjb/util/test/MainTest.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-baseData/src/test/java/com/SpringTest.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/cjb/Model/PageModel.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/cjb/Model/UserModel.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/http-client/src/main/java/com/service/HttpService.java" />
+        <option value="$PROJECT_DIR$/http-client/src/main/java/com/config/Config.java" />
+        <option value="$PROJECT_DIR$/http-client/src/main/java/com/HttpClientApplication.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/cjb/config/Config.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/BaseDataApplication.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-Eureka/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-2/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-baseData/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/CodeGenerator.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/entity/CityInfo.java" />
+        <option value="$PROJECT_DIR$/http-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/http-client/src/main/java/com/controller/VideoController.java" />
+        <option value="$PROJECT_DIR$/http-client/src/main/java/com/util/FFmpegUtil.java" />
+        <option value="$PROJECT_DIR$/http-client/pom.xml" />
+        <option value="$PROJECT_DIR$/http-client/src/main/java/com/test/Test.java" />
+        <option value="$PROJECT_DIR$/http-client/src/main/java/com/service/impl/HttpServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -196,8 +396,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/software/maven/maven3" />
-        <option name="userSettingsFile" value="D:\software\maven\maven3\conf\settings.xml" />
+        <option name="localRepository" value="D:\mySoftware\maven\repertory" />
+        <option name="mavenHome" value="D:/mySoftware/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\mySoftware\maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -206,12 +407,40 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-cloud-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="http-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-cloud-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="http-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="http-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-cloud-eureka-2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-cloud-eureka-2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-cloud-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-cloud-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-cloud-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -221,18 +450,19 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="853" />
-    <option name="y" value="30" />
+    <option name="x" value="650" />
+    <option name="y" value="49" />
     <option name="width" value="1571" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -244,18 +474,345 @@
             <path>
               <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="http-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="http-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="http-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="http-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="http-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="http-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="http-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="http-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="http-client" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="http-client" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="http-client" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="ffmpeg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="http-client" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="ffmpeg" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-baseData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-baseData" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-baseData" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-baseData" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-baseData" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-baseData" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-baseData" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-baseData" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-Eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-Eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-Eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-Eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-Eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-Eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-eureka-2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-spring-cloud-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,29 +824,33 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560757521811" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../myproject" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562913205799" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.side.proportion" value="0.30827886" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\git_project\lary\my-spring-cloud-project\spring-cloud-zuul\src\main\java\com\config" />
-      <recent name="D:\code\git_project\lary\my-spring-cloud-project\spring-cloud-eureka-2\src\main\resources" />
-      <recent name="D:\code\git_project\lary\my-spring-cloud-project\spring-cloud-server\src\main\java\com" />
+      <recent name="D:\code\git_project\lary\my-spring-cloud-project\http-client\src\main\resources" />
+      <recent name="D:\code\git_project\lary\my-spring-cloud-project\http-client\src\main\java" />
+      <recent name="D:\code\git_project\lary\my-spring-cloud-project\spring-cloud-server-1\src\main\resources" />
+      <recent name="D:\code\git_project\lary\my-spring-cloud-project\spring-cloud-server-1\src\main\java" />
       <recent name="D:\code\git_project\lary\my-spring-cloud-project\spring-cloud-server\src\main\resources" />
-      <recent name="D:\code\my-spring-cloud-project\spring-cloud-zuul\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
+      <recent name="com.cjb.Model" />
+      <recent name="com.cjb.config" />
       <recent name="com.controller" />
+      <recent name="com.cjb.service" />
+      <recent name="com.cjb.service.impl" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\git_project\lary\my-spring-cloud-project\spring-cloud-server\src\main\resources" />
@@ -307,16 +868,62 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ApiVersionCondition">
-    <configuration name="ApiVersionCondition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.config.ApiVersionCondition" />
-      <module name="spring-cloud-server" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="FFmpegUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.util.FFmpegUtil" />
+      <module name="http-client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.config.*" />
+          <option name="PATTERN" value="com.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.Test" />
+      <module name="http-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseDataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-baseData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.BaseDataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="http-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.HttpClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cloud-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.RedisApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -334,55 +941,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringCloudEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-cloud-Eureka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SpringCloudEurekaApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringCloudZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-cloud-zuul" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SpringCloudZuulApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-cloud-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SpringServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Spring Boot.SpringCloudEurekaApplication" />
-      <item itemvalue="Spring Boot.SpringCloudZuulApplication" />
-      <item itemvalue="Spring Boot.SpringServiceApplication" />
+      <item itemvalue="Spring Boot.HttpClientApplication" />
+      <item itemvalue="Spring Boot.BaseDataApplication" />
       <item itemvalue="Spring Boot.SpringCloudEureka2Application" />
-      <item itemvalue="Application.ApiVersionCondition" />
+      <item itemvalue="Spring Boot.RedisApplication" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.FFmpegUtil" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApiVersionCondition" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.FFmpegUtil" />
+        <item itemvalue="Spring Boot.RedisApplication" />
+        <item itemvalue="Spring Boot.BaseDataApplication" />
         <item itemvalue="Spring Boot.SpringCloudEureka2Application" />
       </list>
     </recent_temporary>
@@ -401,7 +973,16 @@
       <workItem from="1559210130333" duration="11970000" />
       <workItem from="1559524210138" duration="12607000" />
       <workItem from="1560131402478" duration="7598000" />
-      <workItem from="1560755809366" duration="1344000" />
+      <workItem from="1560755809366" duration="3284000" />
+      <workItem from="1560821757507" duration="45485000" />
+      <workItem from="1561342323402" duration="6922000" />
+      <workItem from="1561425566509" duration="39072000" />
+      <workItem from="1561703407466" duration="2413000" />
+      <workItem from="1561708666818" duration="6888000" />
+      <workItem from="1562124946583" duration="39532000" />
+      <workItem from="1562669744576" duration="4526000" />
+      <workItem from="1562807608932" duration="8361000" />
+      <workItem from="1563155387163" duration="1297000" />
     </task>
     <task id="LOCAL-00001" summary="单元测试功能添加">
       <created>1559268193411</created>
@@ -424,43 +1005,127 @@
       <option name="project" value="LOCAL" />
       <updated>1560148700881</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加flyway">
+      <created>1560757886068</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560757886068</updated>
+    </task>
+    <task id="LOCAL-00005" summary="网关跨域处理">
+      <created>1560840034704</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560840034704</updated>
+    </task>
+    <task id="LOCAL-00006" summary="返回值格式修改：xml改为json">
+      <created>1560846318854</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560846318854</updated>
+    </task>
+    <task id="LOCAL-00007" summary="添加了webservice访问用例&#10;添加了xml解析用例">
+      <created>1560938587474</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560938587474</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加webService测试接口">
+      <created>1561023358013</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561023358013</updated>
+    </task>
+    <task id="LOCAL-00009" summary="添加新服务">
+      <created>1561450137372</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561450137372</updated>
+    </task>
+    <task id="LOCAL-00010" summary="添加rides服务">
+      <created>1561453013935</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1561453013935</updated>
+    </task>
+    <task id="LOCAL-00011" summary="添加redis服务和其他接口调整">
+      <created>1561534918938</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1561534918938</updated>
+    </task>
+    <task id="LOCAL-00012" summary="测试RestTemplate接口">
+      <created>1561627637692</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1561627637692</updated>
+    </task>
+    <task id="LOCAL-00013" summary="mybatis plus代码生成器">
+      <created>1561717522630</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1561717522630</updated>
+    </task>
+    <task id="LOCAL-00014" summary="配置文件修改">
+      <created>1562155911687</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1562155911687</updated>
+    </task>
+    <task id="LOCAL-00015" summary="配置文件修改">
+      <created>1562160021400</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1562160021400</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringTest_getUserList - 2019.05.31 at 10h 47m 17s.xml">
-      <configuration name="SpringTest.getUserList" configurationId="JUnit" />
+    <history-entry file="JedisTest_set - 2019.06.25 at 16h 43m 24s.xml">
+      <configuration name="JedisTest.set" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_getUserList - 2019.05.31 at 10h 49m 06s.xml">
-      <configuration name="SpringTest.getUserList" configurationId="JUnit" />
+    <history-entry file="JedisTest_set - 2019.06.25 at 16h 45m 16s.xml">
+      <configuration name="JedisTest.set" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_getUserList - 2019.05.31 at 10h 57m 11s.xml">
-      <configuration name="SpringTest.getUserList" configurationId="JUnit" />
+    <history-entry file="JedisTest_get - 2019.06.25 at 16h 46m 01s.xml">
+      <configuration name="JedisTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_getUserList - 2019.05.31 at 10h 57m 47s.xml">
-      <configuration name="SpringTest.getUserList" configurationId="JUnit" />
+    <history-entry file="JedisTest_set - 2019.06.25 at 16h 46m 56s.xml">
+      <configuration name="JedisTest.set" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_getUserList - 2019.05.31 at 10h 59m 08s.xml">
-      <configuration name="SpringTest.getUserList" configurationId="JUnit" />
+    <history-entry file="JedisTest_set - 2019.06.25 at 16h 48m 22s.xml">
+      <configuration name="JedisTest.set" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_getUserList - 2019.05.31 at 13h 58m 32s.xml">
-      <configuration name="SpringTest.getUserList" configurationId="JUnit" />
+    <history-entry file="JedisTest_set - 2019.06.25 at 16h 48m 58s.xml">
+      <configuration name="JedisTest.set" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_getUserList - 2019.05.31 at 13h 59m 18s.xml">
-      <configuration name="SpringTest.getUserList" configurationId="JUnit" />
+    <history-entry file="JedisTest_get - 2019.06.25 at 16h 54m 42s.xml">
+      <configuration name="JedisTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_getUserList - 2019.05.31 at 14h 01m 28s.xml">
-      <configuration name="SpringTest.getUserList" configurationId="JUnit" />
+    <history-entry file="JedisTest_get - 2019.06.25 at 16h 55m 14s.xml">
+      <configuration name="JedisTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_getUserList - 2019.06.03 at 09h 25m 26s.xml">
-      <configuration name="SpringTest.getUserList" configurationId="JUnit" />
+    <history-entry file="JedisTest_get - 2019.06.25 at 16h 57m 20s.xml">
+      <configuration name="JedisTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTest_getUserList - 2019.06.05 at 16h 55m 36s.xml">
-      <configuration name="SpringTest.getUserList" configurationId="JUnit" />
+    <history-entry file="JedisTest_set - 2019.06.25 at 17h 01m 49s.xml">
+      <configuration name="JedisTest.set" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39053000" />
+    <option name="totallyTimeSpent" value="195489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -473,8 +1138,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1988273" />
+      <window_info content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.23240939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -483,35 +1149,45 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.27982646" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3373102" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40563992" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.36008677" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15184382" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18112798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.18655097" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.30694142" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.30911064" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.18221258" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.38937092" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32995737" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.23081024" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -520,132 +1196,224 @@
     <MESSAGE value="单元测试功能添加" />
     <MESSAGE value="日志添加" />
     <MESSAGE value="添加了版本号控制&#10;添加了日志打印" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了版本号控制&#10;添加了日志打印" />
+    <MESSAGE value="添加flyway" />
+    <MESSAGE value="网关跨域处理" />
+    <MESSAGE value="返回值格式修改：xml改为json" />
+    <MESSAGE value="添加了webservice访问用例&#10;添加了xml解析用例" />
+    <MESSAGE value="添加webService测试接口" />
+    <MESSAGE value="添加新服务" />
+    <MESSAGE value="添加rides服务" />
+    <MESSAGE value="添加redis服务和其他接口调整" />
+    <MESSAGE value="测试RestTemplate接口" />
+    <MESSAGE value="mybatis plus代码生成器" />
+    <MESSAGE value="配置文件修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件修改" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar!/org/apache/commons/httpclient/HttpMethodBase.class</url>
+          <line>352</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/controller/VideoController.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/http-client/src/main/java/com/controller/VideoController.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/http-client/src/main/java/com/controller/VideoController.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/SpringServiceApplication.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/mappers.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/Service.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/mappers/UserInfoMapper.java">
+    <entry file="file://$PROJECT_DIR$/http-client/src/main/java/com/config/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/cjb/config/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/resources/mybatis/UserInfoMapper.xml">
+    <entry file="file://D:/mySoftware/maven/repertory/org/apache/maven/plugins/maven-compiler-plugin/2.5.1/maven-compiler-plugin-2.5.1.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/entity/UserInfo.java">
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="359">
+          <caret line="103" column="40" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/entity/PageEntity.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mySoftware/maven/repertory/org/postgresql/postgresql/9.4.1212.jre7/postgresql-9.4.1212.jre7-sources.jar!/org/postgresql/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-788">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/generate/sys/controller/CityInfoController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/generate/sys/entity/CityInfo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sys/CityInfoMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/service/impl/CityInfoServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/mapper/UserInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mySoftware/maven/repertory/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.4.RELEASE/spring-cloud-netflix-eureka-client-1.3.4.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12673">
+          <caret line="476" column="20" lean-forward="true" selection-start-line="476" selection-start-column="20" selection-end-line="476" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-baseData/src/main/resources/mybatis/UserInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-baseData/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/service/BaseDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-Eureka/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-2/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-Eureka/src/main/java/com/SpringCloudEurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="72" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-2/src/main/java/com/SpringCloudEureka2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-baseData/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/entity/PageEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/config/JedisAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        <state relative-caret-position="322">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/test/java/com/SpringTest.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/CodeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="26" column="39" lean-forward="true" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/resources/logback.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3390">
-          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.4.RELEASE/spring-cloud-netflix-core-1.3.4.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/interceptor.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE.jar!/org/springframework/web/servlet/config/annotation/InterceptorRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="20" column="68" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/controller/TestControllerV2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="145" column="29" selection-start-line="145" selection-start-column="29" selection-end-line="145" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/interceptor/AuthInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-Eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="45" column="12" selection-start-line="12" selection-start-column="4" selection-end-line="45" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+        <state relative-caret-position="421">
+          <caret line="122" column="61" selection-start-line="122" selection-start-column="61" selection-end-line="122" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -656,121 +1424,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-Eureka/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-redis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        <state relative-caret-position="344">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/util/BaseDataService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="180">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/config/WebConfig.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/config/CustomRequestMappingHandlerMapping.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/config/ApiVersion.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/config/ApiVersionCondition.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-2/src/main/java/com/SpringCloudEureka2Application.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/entity/CityInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="390">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-2/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/SpringServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-baseData/src/main/java/com/BaseDataApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/java/com/config/MyFallbackProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="65" column="47" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/CustomRequestMappingHandlerMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/ApiVersionCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="56" column="43" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/src/main/java/com/config/ApiVersion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-redis/src/main/java/com/RedisApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-Eureka/src/main/java/com/SpringCloudEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mySoftware/maven/repertory/org/bytedeco/javacv/1.5/javacv-1.5.jar!/org/bytedeco/javacv/FFmpegFrameGrabber.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="144" column="29" selection-start-line="144" selection-start-column="11" selection-end-line="144" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/mySoftware/maven/repertory/org/bytedeco/javacv/1.5/javacv-1.5.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3510" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/awt/image/BufferedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/awt/image/RenderedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/io/DataInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="148" column="10" selection-start-line="148" selection-start-column="10" selection-end-line="148" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/javax/imageio/stream/ImageInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/javax/imageio/stream/ImageOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="51" column="56" lean-forward="true" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="1517" column="18" lean-forward="true" selection-start-line="1517" selection-start-column="18" selection-end-line="1517" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mySoftware/maven/repertory/org/bytedeco/javacv/1.4.4/javacv-1.4.4.jar!/org/bytedeco/javacv/FFmpegFrameGrabber.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="147" column="29" selection-start-line="147" selection-start-column="11" selection-end-line="147" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="31" selection-start-line="4" selection-start-column="3" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http-client/src/main/java/com/HttpClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1413">
+          <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http-client/src/main/java/com/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="106" column="27" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http-client/src/main/java/com/util/FFmpegUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="24" column="77" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http-client/src/main/java/com/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http-client/src/main/java/com/service/HttpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5070">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http-client/src/main/java/com/service/impl/HttpServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1048#1069#0" expanded="true" />
+            <element signature="e#2202#2218#0" expanded="true" />
+            <element signature="e#4537#4553#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -784,7 +1616,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.6034858" />
               </list>
             </option>
           </splitter-proportions>
@@ -796,7 +1628,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30827886" />
               </list>
             </option>
           </splitter-proportions>
@@ -819,7 +1651,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30827886" />
               </list>
             </option>
           </splitter-proportions>
@@ -827,11 +1659,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-cloud-zuul</last-edited>
+          <last-edited>spring-cloud-redis</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30827886" />
                 <option value="0.6" />
               </list>
             </option>
@@ -856,7 +1688,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30827886" />
               </list>
             </option>
           </splitter-proportions>
