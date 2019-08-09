@@ -21,6 +21,7 @@
         <module>common</module>
         <module>spring-cloud-redis</module>
         <module>http-client</module>
+        <module>spring-cloud-MQ</module>
     </modules>
 
     <!--<dependencies>-->
