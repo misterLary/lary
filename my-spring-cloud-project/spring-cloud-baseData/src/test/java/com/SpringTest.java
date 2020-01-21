@@ -1,6 +1,6 @@
 package com;
 
-import com.cjb.Model.UserModel;
+import com.cjb.model.UserModel;
 import com.service.UserService;
 import org.apache.commons.collections.CollectionUtils;
 import org.junit.Test;

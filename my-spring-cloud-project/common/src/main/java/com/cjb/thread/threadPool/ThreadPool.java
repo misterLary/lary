@@ -1,11 +1,11 @@
-package com.cjb.thread;
+package com.cjb.thread.threadPool;
 
 import java.util.List;
 import java.util.Vector;
 
-public class MyThreadPool {
+public class ThreadPool {
 
-    private static MyThreadPool instance = null;
+    private static ThreadPool instance = null;
 
     private List<PThread> idleThreads;
 
@@ -13,7 +13,7 @@ public class MyThreadPool {
 
     private boolean isShutDown = false;
 
-    public MyThreadPool() {
+    public ThreadPool() {
         this.idleThreads = new Vector<>(5);
         threadCounter = 0;
     }
@@ -22,9 +22,9 @@ public class MyThreadPool {
         return threadCounter;
     }
 
-    public synchronized static MyThreadPool getInstance(){
+    public synchronized static ThreadPool getInstance(){
         if(instance == null){
-            instance = new MyThreadPool();
+            instance = new ThreadPool();
         }
         return instance;
     }
@@ -58,5 +58,6 @@ public class MyThreadPool {
             thread.start();
         }
     }
+
 
 }

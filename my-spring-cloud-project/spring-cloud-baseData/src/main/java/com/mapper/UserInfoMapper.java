@@ -1,6 +1,6 @@
 package com.mapper;
 
-import com.cjb.Model.UserModel;
+import com.cjb.model.UserModel;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 

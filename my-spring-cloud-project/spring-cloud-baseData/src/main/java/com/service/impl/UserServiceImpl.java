@@ -1,6 +1,6 @@
 package com.service.impl;
 
-import com.cjb.Model.UserModel;
+import com.cjb.model.UserModel;
 import com.mapper.UserInfoMapper;
 import com.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

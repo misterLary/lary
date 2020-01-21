@@ -1,10 +1,10 @@
-package com.cjb.thread;
+package com.cjb.thread.threadPool;
 
 
 
 public class PThread extends Thread{
 
-    private MyThreadPool pool;
+    private ThreadPool pool;
 
     private Runnable target;
 
@@ -12,7 +12,7 @@ public class PThread extends Thread{
 
     private boolean isIDle = false;
 
-    public PThread(String name,MyThreadPool pool, Runnable target) {
+    public PThread(String name,ThreadPool pool, Runnable target) {
         super(name);
         this.pool = pool;
         this.target = target;

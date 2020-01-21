@@ -1,8 +1,7 @@
 package com.cjb.util.test;
 
-import com.cjb.Model.UserModel;
+import com.cjb.model.UserModel;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -12,7 +11,8 @@ public class MainTest {
 
     public static void main(String[] args) {
 
-        test2();
+        String str = MainTest.class.getResource("/").getPath();
+        System.out.println("str" + str);
 
     }
 

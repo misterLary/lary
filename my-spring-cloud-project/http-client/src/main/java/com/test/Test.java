@@ -22,7 +22,7 @@ public class Test {
         List<Map<String, Object>> result = new ArrayList<Map<String, Object>>();
         try {
 
-            URL url = new URL("http://1252093142.vod2.myqcloud.com/4704461fvodcq1252093142/48c8a9475285890781000441992/playlist.m3u8");
+            URL url = new URL("http://hls01open.ys7.com/openlive/6459b158d3d542b0bfebc927b09b11fa.m3u8");
             // 创建远程url连接对象
             // 通过远程url连接对象打开一个连接，强转成httpURLConnection类
             connection = (HttpURLConnection) url.openConnection();
@@ -37,6 +37,7 @@ public class Test {
             PlaylistParser parser = new PlaylistParser(connection.getInputStream(), Format.M3U, Encoding.UTF_8);
             Playlist playlist = parser.parse();
             String urlStr = playlist.getMediaPlaylist().getTracks().get(0).getUri();
+            System.out.println(urlStr.contains("ErrTS"));
             System.out.println("urlStr : " + urlStr);
         }catch (Exception e){
             System.out.println("***************");

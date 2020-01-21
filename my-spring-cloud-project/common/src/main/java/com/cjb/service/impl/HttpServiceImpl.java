@@ -1,7 +1,13 @@
 package com.cjb.service.impl;
 
+import com.alibaba.fastjson.JSONObject;
 import com.cjb.service.HttpService;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -153,4 +159,16 @@ public class HttpServiceImpl implements HttpService {
             connection.disconnect();// 关闭远程连接
         }
     }
+
+    public static void main(String[] args) {
+        String uri="http://xm.test.js.tqmdp.net/api/sggProxy/camera/previewUrl?id=392ec901be484889abc63b4ad90ca076&token=4433f314-c210-4301-8db9-a2e3d5e51e15";
+        HttpHeaders headers = new HttpHeaders();
+        RestTemplate restTemplate=new RestTemplate();
+        headers.setContentType(MediaType.APPLICATION_JSON_UTF8);
+        HttpEntity<String> entity = new HttpEntity<String>(headers);
+        String strbody=restTemplate.exchange(uri, HttpMethod.POST, entity,String.class).getBody();
+        JSONObject jsonObject = (JSONObject)JSONObject.parse(strbody);
+        System.out.println(jsonObject.get("data"));
+    }
+
 }

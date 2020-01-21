@@ -1,4 +1,4 @@
-package com.cjb.Model;
+package com.cjb.model;
 
 public class UserModel extends PageModel{
 

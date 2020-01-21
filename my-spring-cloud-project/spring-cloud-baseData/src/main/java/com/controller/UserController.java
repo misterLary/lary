@@ -1,6 +1,6 @@
 package com.controller;
 
-import com.cjb.Model.UserModel;
+import com.cjb.model.UserModel;
 import com.cjb.util.ResponseBody;
 import com.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

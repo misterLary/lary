@@ -1,6 +1,6 @@
 package com.service;
 
-import com.cjb.Model.UserModel;
+import com.cjb.model.UserModel;
 
 import java.util.List;
 
