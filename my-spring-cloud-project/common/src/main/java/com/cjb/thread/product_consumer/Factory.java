@@ -27,6 +27,7 @@ public class Factory{
             getCondition.signal();
         }catch (InterruptedException e){
             e.printStackTrace();
+            produceCondition.signal();
         }finally {
             System.out.println("生产者["+userName + "] 出去了");
             reentrantLock.unlock();
@@ -48,6 +49,7 @@ public class Factory{
             produceCondition.signal();
         }catch (InterruptedException e){
             e.printStackTrace();
+            getCondition.signal();
         }finally {
             System.out.println("消费者["+userName + "] 出去了");
             reentrantLock.unlock();
