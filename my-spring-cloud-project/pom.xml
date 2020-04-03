@@ -22,6 +22,7 @@
         <module>spring-cloud-redis</module>
         <module>http-client</module>
         <module>spring-cloud-MQ</module>
+        <module>bingfa</module>
     </modules>
 
     <!--<dependencies>-->
@@ -40,4 +41,5 @@
             <!--</plugin>-->
         <!--</plugins>-->
     <!--</build>-->
+
 </project>

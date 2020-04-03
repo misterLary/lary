@@ -1,12 +1,20 @@
 package com;
 
+import java.io.File;
+
 public class MainTest {
 
+    public void test1() throws Exception{
+        String str1 = "1";
+        try{
+            File file = new File("qqewq");
+        }catch (Exception e){
+            throw e;
+        }
+    }
+
     public static void main(String[] args) {
-        String str1 = "http://dwydywqyhttpnsc http";
-        String str2 = str1.replaceFirst("http","https");
-        System.out.println(str1);
-        System.out.println(str2);
+
     }
 
 }
