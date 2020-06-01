@@ -1,20 +1,9 @@
 package com;
-
-import java.io.File;
-
+import java.util.concurrent.*;
 public class MainTest {
-
-    public void test1() throws Exception{
-        String str1 = "1";
-        try{
-            File file = new File("qqewq");
-        }catch (Exception e){
-            throw e;
-        }
-    }
-
     public static void main(String[] args) {
-
+        ExecutorService executorService = Executors.newFixedThreadPool(1);
+        Executor executor;
     }
 
 }
